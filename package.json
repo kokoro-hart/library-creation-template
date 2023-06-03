@@ -19,7 +19,7 @@
     "dev": "npm run build && node bin/example-command.js",
     "lint": "run-s -c lint:*",
     "lint:tsc": "tsc",
-    "lint:eslint": "eslint --fix",
+    "lint:eslint": "eslint --ext .js,.ts --cache ./src",
     "lint:prettier": "prettier --write src/**/*.ts",
     "test": "vitest"
   },
