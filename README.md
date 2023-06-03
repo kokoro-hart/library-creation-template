@@ -1,6 +1,6 @@
 # npm-package-template
 
-Project template for creating npm packages.
+📚 Project template for creating npm packages.
 
 ## Stacks
 
