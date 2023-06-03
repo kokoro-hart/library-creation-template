@@ -33,7 +33,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'unused-imports/no-unused-imports': 'error',
   },
-  ignorePatterns: ['markuplint/*.js', 'webpack/*.js', 'stylelint.config.js'],
+  ignorePatterns: ['vite.config.ts'],
   settings: {
     'import/resolver': {
       typescript: {},
